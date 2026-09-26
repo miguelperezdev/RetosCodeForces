@@ -1,0 +1,56 @@
+# =========================
+# C++ - Compiled files
+# =========================
+
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# Executables commonly generated during local testing
+main
+a.out
+
+# =========================
+# Debug / build
+# =========================
+
+build/
+bin/
+cmake-build-*/
+.vscode/
+
+# =========================
+# IDE / Editor
+# =========================
+
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.log
+
+# =========================
+# C++ precompiled headers
+# =========================
+
+*.gch
+*.pch
